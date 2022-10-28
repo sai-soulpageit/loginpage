@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hapi/iron": "6.0.0",
+    "cookie": "0.4.0",
     "next": "13.0.0",
+    "next-connect": "^0.6.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "swr": "^0.1.18",
+    "uuid": "^8.3.2",
+    "uuidv4": "6.2.5"
   },
   "devDependencies": {
     "eslint": "8.26.0",

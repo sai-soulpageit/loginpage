@@ -1,0 +1,30 @@
+.loginpage{
+    background-image: url('/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buttoninlogin{
+    color: white;
+    background-color: rgb(6, 72, 6);
+    padding-left: 3px;
+}
+
+/* .formrootdiv{
+    background-color: transparent;
+    border: 2px solid black;
+    
+} */
+
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.toptext{
+    color: rgb(6, 72, 6);
+    font-weight: bold;
+}
