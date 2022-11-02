@@ -1,21 +1,24 @@
-.loginpage{
+.signuppage{
+    /* color: rgb(4, 83, 4); */
     color: green;
-    background-image: url('/loginpage.jpg');
+    background-image: url('/unsplash.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+
 h1 {
     
     text-align: center;
   }
-  .form-container {
+
+  .form-container2 {
     max-width: 21rem;
     margin: 0 auto;
     padding: 1rem;
-    /* border: 1px solid rgb(0, 0, 0); */
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 4px;
   }
 
@@ -24,25 +27,22 @@ h1 {
     display: flex;
     flex-flow: column;
   }
-
+  
   label > span {
     font-weight: 600;
   }
-
   input {
     padding: 8px;
     margin: 0.3rem 0 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-
   .submit {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     justify-content: space-between;
   }
-
   .submit > button {
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -50,16 +50,14 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-
   .submit > button:hover {
     border-color: #888;
   }
-
   .submit > a {
     text-decoration: none;
   }
 
-  .dont{
+  .already{
     color: green;
   }
 
@@ -67,51 +65,6 @@ h1 {
     color: red;
   }
 
-  .greensucces{
-    color: rgba(0, 26, 255, 0.733) ;
-    font-weight: bold;
+  .blue{
+    color: greenyellow;
   }
-
-
-
-
-
-
-
-
-
-
-
-  /* .loginpage{
-    background-image: url('/background.jpg');
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.buttoninlogin{
-    color: white;
-    background-color: rgb(6, 72, 6);
-    padding-left: 3px;
-}
-
-
-.formdiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.toptext{
-    color: rgb(6, 72, 6);
-    font-weight: bold;
-} */
-
-
-
-/* .formrootdiv{
-    background-color: transparent;
-    border: 2px solid black;
-    
-} */

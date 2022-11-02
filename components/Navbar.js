@@ -1,8 +1,9 @@
 import Link from "next/link";
+// import Content from "./content";
 
 export default function Navbar() {
   return (
-
+<>
 
     <div className="rootdiv">
 
@@ -20,18 +21,52 @@ export default function Navbar() {
 
         <nav>
           <ul className="navigation">
-            <li> Home</li>
+            {/* <li> Home</li> */}
             <li>Destinations</li>
             <li> Map</li>
-            <li> Contact US </li>
+            <li> ContactUs </li>
           </ul>
         </nav>
 
         </header>
+
+
+        <div className="sidebuttons">
+
             <div>
-            <Link href='/loginpage'><button className="buttonn">Login</button></Link>
+              <Link href='/home'>
+              <button className="buttonn">Home</button>
+              </Link>
             </div>
+
+
+            <div>
+             <Link href='/signuppage'>
+               <button className="buttonn">Signup</button>
+              </Link>
+            </div>
+
+
+            <div>
+              <Link href='/loginpage'>
+              <button className="buttonn">Login</button>
+              </Link>
+            </div>
+
+
+         </div>
+          
       
     </div>
+
+
+    {/* <Content/> */}
+{/* <div className="textunder">
+“The journey of a thousand miles begins with a single step.”
+</div>   
+
+<div className="textunder">Please Login</div> */}
+
+</>
   );
 }
