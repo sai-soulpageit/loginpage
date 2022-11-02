@@ -3,7 +3,7 @@ import { useState} from 'react';
 import Navbar from "../components/Navbar";
 import Link from 'next/link'
 
-export default function loginpage () {
+export default function Loginpagecomments () {
    
     // 1) properties - to manage and to handle the form
     //     & bind the input text with the register.
@@ -76,7 +76,7 @@ export default function loginpage () {
             <button type="submit">Login</button>
 
             <Link href="/signuppage">
-           <b className="dont"> I don't have an account</b>
+           <b className="dont">{` I don't have an account`}</b>
             </Link>
 
 

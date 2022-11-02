@@ -52,7 +52,7 @@ export default function Loginpage () {
             
             <Link href="/signuppage">
             {/* <p>I don't have an account</p> */}
-           <b className="dont"> I don't have an account</b>
+           <b className="dont"> {`I don't have an account`}</b>
             </Link>
 
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 // import Content from "./content";
 
 export default function Navbar() {
@@ -11,9 +12,9 @@ export default function Navbar() {
       <header className="headd">
 
         <div>
-            <img
+            <Image
              src="https://soulpageit.com/wp-content/uploads/2021/02/SoulpageLogo.svg"
-             alt=""
+             alt="image"
                />
                <h3 className="travels">Travels</h3>
 
