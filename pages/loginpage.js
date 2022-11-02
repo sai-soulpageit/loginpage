@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Link from 'next/link'
 
 
-export default function loginpage () {
+export default function Loginpage () {
 
     const{ register, handleSubmit, formState:{errors} } = useForm();
 
